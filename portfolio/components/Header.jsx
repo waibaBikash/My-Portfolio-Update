@@ -15,7 +15,7 @@ const Header = () => {
             <p className='max-w-2xl mx-auto font-Ovo'>
               I am a frontend developer form Sydeney, Australia with 3 years of experience in multiple companies like Micosoft, Telsa and Apple.
             </p>
-             <div className='flx flex-col sm:flex-row items-center gap-4 mt-4'>
+             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                <a className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2' href="#contact">Contact me <Image className='w-4' src={assets.right_arrow_white} alt=''/></a>
                <a className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2' href="/sample-resume.pdf" download>My resume <Image className='w-4' src={assets.download_icon} alt=''/></a>
              </div>
