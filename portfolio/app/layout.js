@@ -9,7 +9,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolia - Bikash",
+  title: "Portfolio - Bikash",
   description: "",
 };
 
