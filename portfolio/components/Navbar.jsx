@@ -1,6 +1,6 @@
-import { assets } from '@/assets/assets'
-import Image from 'next/image'
-import React, { useEffect, useRef, useState } from 'react'
+import { assets } from '@/assets/assets';
+import Image from 'next/image';
+import React, { useEffect, useRef, useState } from 'react';
 
 const Navbar = ({isDarkMode, setIsDarkMode}) => {
    
@@ -89,4 +89,4 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
   )
 }
 
-export default Navbar
+export default Navbar;
