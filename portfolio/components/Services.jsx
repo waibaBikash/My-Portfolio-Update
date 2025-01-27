@@ -24,7 +24,10 @@ const Services = () => {
       initial ={{ opacity: 0}}
       whileInView={{ opacity: 1}}
       transition={{delay: 0.7, duration: 0.5}}
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I am a frontend developer from Sydney, Australia with 4 years of experience in multiple companies like Microsot, Telsa and Apple.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+      I am a frontend developer from Sydney, Australia with 4 years of 
+      experience in multiple companies like Microsot, Telsa and Apple.
+      </motion.p>
        
        <motion.div 
         initial ={{ opacity: 0}}
@@ -34,11 +37,21 @@ const Services = () => {
           {serviceData.map(({icon, title, description, link}, index)=>(
              <motion.div
              whileHover={{scale: 1.05}}
-              key={index} className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white'>
-               <Image src={icon} alt='' className='w-10'/>
+              key={index} 
+              className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white'>
+               <Image 
+               src={icon} alt='' 
+               className='w-10'/>
                <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</h3>
                <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>{description}</p>
-               <a href={link} className='flex items-center gap-2 text-sm mt-5'>Read more <Image src={assets.right_arrow} alt='' className='w-4'/></a>
+               <a href={link}
+                className='flex items-center gap-2 text-sm mt-5'>
+                  Read more 
+                  <Image
+                   src={assets.right_arrow} 
+                   alt='' 
+                   className='w-4'/>
+                   </a>
              </motion.div>
           ))}
        </motion.div>
@@ -46,4 +59,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;
