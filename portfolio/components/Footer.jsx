@@ -24,9 +24,15 @@ const Footer = ({isDarkMode}) => {
           className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] my-12 py-6'>
            <p>© 2025 Waiba. All rights reserved.</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-               <li><a target='_blank' href="https://github.com/myportfolio">GitHub</a></li>
-               <li><a target='_blank' href="https://github.com/myportfolio">Linkdin</a></li>
-               <li><a target='_blank' href="https://github.com/myportfolio">Twitter</a></li>
+               <li>
+                 <a target='_blank' href="https://github.com/myportfolio">GitHub</a>
+                 </li>
+               <li>
+                <a target='_blank' href="https://github.com/myportfolio">Linkdin</a>
+                </li>
+               <li>
+                <a target='_blank' href="https://github.com/myportfolio">Twitter</a>
+                </li>
             </ul>
         </div>
     </div>
