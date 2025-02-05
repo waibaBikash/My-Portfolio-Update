@@ -12,13 +12,17 @@ const Header = () => {
         whileInViw={{scale: 1}}
         transition={{duration: 0.8, type: 'spring', stiffness: 100}}
         >
-           <Image className='rounded-full w-32' src={assets.profile_img} alt=''/> 
+           <Image 
+           className='rounded-full w-32' 
+           src={assets.profile_img} 
+           alt=''/> 
         </motion.div >
         <motion.h3 
         initial = {{y: -20, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay: 0.3}}
-        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi! I'am William Mark
+        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
+          Hi! I'am William Mark
             <Image className='w-6' src={assets.hand_icon} alt=''/>
             </motion.h3>
             <motion.h1 
